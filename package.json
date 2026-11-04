@@ -1,0 +1,21 @@
+{
+  "name": "com.danwestoncode.glowingoutlines",
+  "version": "1.0.0",
+  "displayName": "Glowing Outlines",
+  "description": "",
+  "unity": "6000.3",
+  "unityRelease": "23f1",
+  "dependencies": {},
+  "author": {
+    "name": "Daniel Weston",
+    "email": "westondaniel@protonmail.com",
+    "url": "https://danwestoncode.github.io/"
+  },
+  "samples": [
+    {
+      "displayName": "Glowing Outlines Demo",
+      "description": "Sample of Glowing Outlines in use",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
