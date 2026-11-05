@@ -43,7 +43,7 @@ Shader "GlowingOutlines/Composite"
                 //  Throw some tolerance on the scene depth to handle when 
                 //  numbers get real close....
                 float visible = step(objectDepth, linearSceneDepth + _DepthTolerance);
-
+                
                 float objectCoverage = objectGlow.a;
                 float3 rgb = objectGlow.rgb / objectCoverage;
                 //  Scale the outline "glow" with intensity and cut out the space for the context
